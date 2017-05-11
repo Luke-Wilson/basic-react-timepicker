@@ -1,7 +1,6 @@
 # TimePicker
 
-__COMPONENT DESCRIPTION GOES HERE__
-
+A really simple TimePicker dropdown component that lets you set the gap (step) between times, set earliest and latest limits for your range, attach a change handler and set a default value.
 
 ## Demo & Examples
 
@@ -30,46 +29,41 @@ npm install basic-react-timepicker --save
 
 ## Usage
 
-#Prop Types:
-defaultValue - passing a time value as a string here (e.g. "2:30PM") will make that the default selected value
-onChange - this is the callback that fires when the user selects a time
-name - the name of the select element
-beginLimit - this sets the earliest time in the dropdown. Default value is "12:00AM"- string
-endLimit - this sets the latest time in the dropdown. Default value is "11:45PM" - string
-step - number - this sets the time between steps. Default value is 15 minutes.
+*Prop Types:*
+**defaultValue** Passing a time value as a string here (e.g. "2:30PM") will make that the default selected value
+
+**onChange** This is the callback that fires when the user selects a time
+
+**name** The name of the select element
+
+**beginLimit** This sets the earliest time in the dropdown. Default value is "12:00AM"- string
+
+**endLimit** This sets the latest time in the dropdown. Default value is "11:45PM" - string
+
+**step** Number - this sets the time between steps. Default value is 15 minutes.
 
 #Examples
 ```
 var TimePicker = require('basic-react-timepicker');
 
-Default:
+//Default:
 <TimePicker />
-or
+//or
 <TimePicker name="default" />
 
-With a default value selected (2:30PM)
+//With a default value selected (2:30PM)
 <TimePicker defaultValue="2:30PM"/>
 
-With a 60 min step between times
+//With a 60 min step between times
 <TimePicker step={60}/>
 
-With change handler
+//With change handler
 <TimePicker onChange={yourFunctionName} />
 
-With beginning and ending limits (3:00PM to 6:00PM)
+//With beginning and ending limits (3:00PM to 6:00PM)
 <TimePicker beginLimit="3:00PM" endLimit="6:00PM"/>
 
-
 ```
-
-### Properties
-
-* __DOCUMENT PROPERTIES HERE__
-
-### Notes
-
-__ADDITIONAL USAGE NOTES__
-
 
 ## Development (`src`, `lib` and the build process)
 
@@ -79,6 +73,6 @@ To build, watch and serve the examples (which will also watch the component sour
 
 ## License
 
-__PUT LICENSE HERE__
+MIT License
 
 Copyright (c) 2017 Luke Wilson.
