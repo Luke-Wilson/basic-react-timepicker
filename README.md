@@ -4,7 +4,7 @@ A really simple TimePicker dropdown component that lets you set the gap (step) b
 
 ## Demo & Examples
 
-![](https://www.dropbox.com/s/pwxtlo1o9beg6ox/basic-react-timepicker.gif)
+![](http://g.recordit.co/hD6wmPCfOu.gif)
 
 Live demo: [luke-wilson.github.io/basic-react-timepicker](http://luke-wilson.github.io/basic-react-timepicker/)
 
