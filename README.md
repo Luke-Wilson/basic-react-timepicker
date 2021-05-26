@@ -1,5 +1,7 @@
 # TimePicker
 
+## THIS PACKAGE IS DEPRECATED AND NO LONGER MAINTAINED.#
+
 A really simple TimePicker dropdown component that lets you set the gap (step) between times, set earliest and latest limits for your range, attach a change handler and set a default value.
 
 ## Demo & Examples
@@ -17,7 +19,6 @@ npm start
 
 Then open [`localhost:8000`](http://localhost:8000) in a browser.
 
-
 ## Installation
 
 The easiest way to use basic-react-timepicker is to install it from NPM and include it in your own React build process (using [Browserify](http://browserify.org), [Webpack](http://webpack.github.io/), etc).
@@ -28,10 +29,9 @@ You can also use the standalone build by including `dist/basic-react-timepicker.
 npm install basic-react-timepicker --save
 ```
 
-
 ## Usage
 
-*Prop Types:*
+_Prop Types:_
 **defaultValue** Passing a time value as a string here (e.g. "2:30PM") will make that the default selected value
 
 **onChange** This is the callback that fires when the user selects a time
@@ -45,6 +45,7 @@ npm install basic-react-timepicker --save
 **step** Number - this sets the time between steps. Default value is 15 minutes.
 
 #Examples
+
 ```
 var TimePicker = require('basic-react-timepicker');
 
